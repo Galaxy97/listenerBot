@@ -28,6 +28,6 @@ module.exports = {
   targetPeerHash: process.env.TARGET_PEER_HASH,
 
   smsUrl: 'https://alertradar.herokuapp.com/',
-  forwardingUrl: 'http://localhost:3000/forward',
+  forwardingUrl: 'http://localhost:3001/forward',
   smsKey: process.env.SMS_KEY,
 };
