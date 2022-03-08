@@ -10,6 +10,7 @@ module.exports = (updates) => {
         message: anUpdate.message.message,
         key: config.smsKey,
         channel_id: config.targetPeerId,
+        settlements: anUpdate.regions,
       })
       .catch((error) => logger.error(JSON.stringify(error)));
   });

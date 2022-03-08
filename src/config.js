@@ -23,6 +23,28 @@ module.exports = {
     'УКРИТТІ.',
     'непаніка',
   ],
+  regionRules: [
+    {
+      region: 'cherkasy',
+      rule: /ЧЕРКАС/,
+    },
+    {
+      region: 'smila',
+      rule: /СМІЛ/,
+    },
+    {
+      region: 'uman',
+      rule: /УМАН/,
+    },
+    {
+      region: 'kaniv',
+      rule: /КАНІВ/,
+    },
+    {
+      region: 'zolotonosha',
+      rule: /ЗОЛОТОН/,
+    },
+  ],
   // Skichko
   targetPeerId: process.env.TARGET_PEER_ID,
   targetPeerHash: process.env.TARGET_PEER_HASH,
